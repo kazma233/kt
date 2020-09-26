@@ -15,8 +15,12 @@ limitations under the License.
 */
 package main
 
-import "kt/cmd"
+import (
+	"kt/cmd"
+
+	_ "github.com/go-sql-driver/mysql"
+)
 
 func main() {
-  cmd.Execute()
+	cmd.Execute()
 }
