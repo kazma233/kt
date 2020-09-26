@@ -4,6 +4,7 @@ go 1.15
 
 require (
 	github.com/360EntSecGroup-Skylar/excelize/v2 v2.3.1
+	github.com/gizak/termui/v3 v3.1.0
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.0.0 // indirect

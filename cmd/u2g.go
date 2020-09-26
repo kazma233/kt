@@ -114,6 +114,8 @@ func upload(client *github.Client, uploadPath string) (string, error) {
 		return "", err
 	}
 
+	defer file.Close()
+
 	fileByte, err := ioutil.ReadAll(file)
 	if err != nil {
 		return "", err
