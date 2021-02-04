@@ -6,4 +6,3 @@ personal tools, base of cobra
 - db2excel: export mysql table struct to excel
    ![demo](./resource/db2excel.png)
 - fs: golang http file server
-- u2g: upload file to github

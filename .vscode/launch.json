@@ -5,15 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "u2g",
-            "type": "go",
-            "request": "launch",
-            "mode": "auto",
-            "program": "${workspaceFolder}/main.go",
-            "env": {},
-            "args": ["u2g"]
-        },
-        {
             "name": "dbstruct2excel",
             "type": "go",
             "request": "launch",
